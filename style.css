@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+:root {
+    --primary-color:#ffd700;
+    --secondary-color: #030e12;
+}
+
+/* .header {
+    background-color: #ffff00;
+    height: 60px;
+    border-bottom-left-radius: 30px;
+    /* border-bottom-right-radius: 30px; 
+}
+
+.nav{
+    padding: 10px;
+    color: #000;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav ul li{
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 8px;
+   margin: 2px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.nav ul li a{
+    
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 5px;
+    border-radius: 6px;
+    color: black;
+}
+
+.nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.header .nav .sos {
+    background: #ff0000;
+  }
+
+.nav h4{
+    padding-left: 10px;
+} */
+
+/* .header .add-btn{
+    font-size: 41px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -11px;
+    left: 1370px;
+    background-color: #000;
+    border: 3px solid white;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+} */
+
+/* .header .main-btn{
+    font-size: 41px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -11px;
+    left: 1316px;
+    cursor: pointer;
+    background-color: #ffff00;
+    border: 2px solid white;
+} */
+
+/* .main-btn:active {
+    background-color: #ffff10;
+    transform: translateY(2px);
+  } */
+/* 
+.container{
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid #000000;
+}
+
+.container .col .list li{
+    list-style: none;
+    background-color: #ffff00;
+    width: 100%;
+}
+
+.container .col .list .li{
+    border-bottom: 1px solid black;
+}
+
+.del-btn{
+    background-color: red;
+    border-radius: 5px;
+    position: relative;
+    left: 1312px;
+    bottom: 10px;
+}
+
+.com-btn{
+    border-radius: 5px;
+    background-color: green;
+    width: 106px;
+    position: relative;
+    left: 1311px;
+    bottom: 13px;
+    color: white;
+    height: 30px;
+}
+
+.del-btn img{
+    background-color: red;
+    height: 20px;
+    width: auto;
+}
+
+
+.com-btn img{
+    background-color: green;
+    height: 20px;
+    width: auto;
+} */
+
+
+.nav-bar {
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0rem;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+.container h2{
+    padding: 20px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin-right: 5.4rem;
+}
+
+.nav-bar ul li a {
+    color: var(--secondary-color);
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    transition: .6s all;
+    outline: none;
+}
+.nav-bar ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-bar ul li:nth-child(4){
+    background-color: red;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.hero {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    /* height: 60vh;*/
+}
+
+/* Card css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  
+}
+
+.main{
+  max-width: 1200px;
+  margin: 20px 246px;
+}
+
+.main h1 {
+    font-size: 42px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #000;
+  padding: 0.8rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 600;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid black;
+  background: transparent;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    color: white;
+    border-color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: var(--primary-color);;
+  /* background: linear-gradient(to bottom left, #FFFD53 20%, #fcb603 100%); */
+}
+
+.card_title {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+
+.vector{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vector h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.vector video{
+    position: relative;
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.footer span{
+    float:inherit;
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 2px solid var(--secondary-color);
+  text-align: center;
+  background: var(--secondary-color);
+  color: white;
+  padding: 2rem;
+}
+
+
+/* Diet accordion css */
+
+.head{
+  color: var(--secondary-color);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, .3);
+}
+.accordion {
+  height: 50px;
+  width: 500px;
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  color: #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 14px;
+  position: relative;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
+.title{
+  font-size: large;
+}
+.show{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  color: #000;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+.info{
+  height: 0;
+  width: 500px;
+  background-color: transparent;
+  color: #000;
+  /* display: flex; */
+  align-items: center;
+  padding: 5px 25px;
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  transition: height .4s;
+}
+.info.reveal{
+  min-height: 150px;
+  border: 1px solid #8B00FF;
+  border-radius: 0 0 10px 10px;
+  transition: height .4s;
+}
+.accordion.radius{
+border-radius:10px 10px  0 0 ;
+}
+
+.accord {
+    width: 500px;
+}
+
+@media screen and (max-width: 500px){
+  .accordion, .info{
+      width: 400px;
+  }
+}
+@media screen and (max-width: 400px){
+  .accordion, .info{
+      width: 350px;
+  }
+}
+@media screen and (max-width: 350px){
+  .accordion, .info{
+      width: 300px;
+  }
+}
+
+
+/* calling button */
+
+.phone {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 36px;
+  position: absolute;
+  cursor: pointer;
+}
+.sec{
+  margin: 100px;
+}
+.sec1{
+  height: 100px;
+  padding: 150px;
+}
+
+.cta {
+  height: 80px;
+  width: 320px;
+  color: white;
+  font-weight: 600;
+  z-index: 1;
+  transition: 1.2s;
+  background: linear-gradient(to right bottom, #f80000, #e99c54);
+}
+
+.number {
+  height: 80px;
+  width: 318px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(https://images.unsplash.com/photo-1529044728228-9917df974897?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  color: white;
+  box-shadow: 3px 3px 30px #aaa;
+}
+
+.cta:hover {
+  transform: translateX(-80%);
+  transition: 1.2s;
+}
+
