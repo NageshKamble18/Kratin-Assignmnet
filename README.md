@@ -4,13 +4,13 @@ Created a aworking prototype website containing the sections like Diet and Excer
 
 Screenshots
 Main page
-![](Screenshot (5).png)
+![](Screenshot%20(5).png)
 
 Deit page
-![](Screenshot (6).png)
+![](Screenshot%20(6).png)
 
 Excercise Page
-![](Screenshot (7).png)
+![](Screenshot%20(7).png)
 
 SOS/ Emergency Page
-![](Screenshot (8).png)
+![](Screenshot%20(8).png)
